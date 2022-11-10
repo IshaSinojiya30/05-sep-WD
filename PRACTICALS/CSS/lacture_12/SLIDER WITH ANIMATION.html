@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>slider with animation</title>
+
+	<style type="text/css">
+		
+		div{ height: 700px;
+		     width: 100%;
+		     background-image: url(bg1.jpg);
+		     animation-name: changeimg;
+		     animation-duration: 5s;
+		     animation-direction: linear;
+		     animation-iteration-count: infinite;
+		     background-repeat: no-repeat;
+		     background-size: cover;
+		      }
+
+		@keyframes changeimg{ 
+
+		  0%{ background-image:url(bg2.jpg); }
+
+		  10%{ background-image:url(bg3.png); }
+
+		  20%{ background-image:url(bg4.jpg); }
+
+		  30%{ background-image:url(bg5.jpg); }
+
+		  40%{ background-image:url(bg6.jpg); } }
+
+
+	</style>
+</head>
+<body>
+
+	<div></div>
+
+</body>
+</html>
