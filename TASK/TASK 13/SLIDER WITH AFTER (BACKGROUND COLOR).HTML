@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatible" content="IE=edge">
+	<title>after</title>
+
+	<style type="text/css">
+		
+		h1{ position: relative;
+		    top: 330px;
+		    left: 32%;
+		     }
+
+		div::after{ position: absolute;
+		            content: "";
+		            background-color: #656d78;
+		            height: 400px;
+		            left: 32%;
+		            top: 30%;
+		            transition: 3s;
+		            width: 0px; }
+
+
+        div:hover::after{ width: 400px;
+                          display: block; }
+
+	</style>
+</head>
+
+<body>
+
+	<div><h1>after effect</h1></div>
+
+</body>
+</html>

@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url('travel bag.jpg');
+    background-repeat: no-repeat;
+
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color:#F6BB42 ;
+}
+.name{
+    width: 15%;
+    height: 100px;
+    float: left;
+}
+.name h1{
+    width: 100%;
+    height: 100px;
+    letter-spacing: 2px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+nav{
+    width: 85%;
+    height: 100px;
+    float: right;
+    
+}
+nav ul{
+    font-size: 30px;
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li a{
+    color: #ED5565;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.li1 .col1 ul li{
+    display: none;
+}
+.li2 .col2 ul li{
+    display: none;
+}
+.li1 .col1 ul li a{
+    text-align: center;
+}
+nav .li2 .col2 ul li a{
+    text-align: center;
+}
+nav ul .li1:hover .col1 ul li{
+    background-color: #FFCE54;
+    display: block;
+}
+nav ul .li2:hover .col2 ul li{
+    background-color: #FFCE54;
+    display: block;
+}
