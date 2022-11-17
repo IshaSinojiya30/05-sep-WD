@@ -1,0 +1,28 @@
+
+body{ background-image: url(teddy.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed; }
+
+p{ text-indent: 30px;
+   column-count: 3;
+   line-height: 25px;
+   column-rule: 1px solid black;
+   margin-top: 100px;
+   font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;}
+
+ .main{ display: flex;
+        margin-top: 50px;
+        justify-content: space-evenly; }
+
+.a{ border: 6px double black; }
+
+.b{ border: 6px double black; }
+
+.c{ border: 6px double black; }
+
+ul li{ font-size: 25px;
+       font-weight: bold;
+       list-style: georgian inside;
+ }

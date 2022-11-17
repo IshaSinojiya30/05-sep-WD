@@ -1,0 +1,77 @@
+.main{ display: flex;
+               justify-content: space-evenly; }
+        .box1{
+            height: 200px;
+            width: 200px;
+            color: red;
+        }
+        .box1 button{
+            cursor: pointer;
+            font-weight: bold;
+            background-color: aquamarine;
+            border-radius: 5px;
+        }
+        .box2{
+            height: 200px;
+            width: 200px;
+            color: red;
+        }
+        .box2 input{
+            cursor: pointer;
+            font-weight: bold;
+            background-color: cadetblue;
+            border-radius: 5px;}
+
+        h2{
+            text-align: center;
+        }
+        .a:first-letter{
+            font-size: 30px;
+            color: orangered;
+
+        }
+
+        .b:first-line{
+            font-size: 30px;
+            color: brown;
+            font-weight: bold;
+        }
+
+        .box{
+            height: 300px;
+            width: 300px;
+            border: 5px solid black;
+            font-size: 100px;
+            font-weight: bolder;
+            letter-spacing: 10px;
+            color: whitesmoke;
+            background-color: olivedrab;
+            animation: india;
+            animation-direction: normal;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes india{
+            0%{
+            }
+            20%{
+                text-shadow: 2px 2px 2px lightsalmon;
+            }
+            40%{
+                text-shadow: 4px 4px 4px orangered;
+            }
+            60%{
+                text-shadow: 6px 6px 6px whitesmoke;
+            }
+            80%{
+                text-shadow: 8px 8px 8px lightgreen;
+            }
+            100%{
+                text-shadow: 10px 10px 10px green;
+            }
+        .box:hover{
+            background-color: aquamarine;
+            border-radius: 50%;
+            transition: 4s;
+        }

@@ -1,0 +1,40 @@
+.main{ display: flex;
+      justify-content: space-evenly; }
+
+.a{ border: 1px solid black;
+    background-image: linear-gradient(white,black);
+    height: 200px;
+    width: 200px;
+    border-radius: 20% 20%; }
+
+.b{ border: 1px solid black;
+    background-image: linear-gradient(red,green,blue,maroon,lime,lightgreen,black,white);
+    height: 200px;
+    width: 200px; }
+
+.c{ border: 1px solid black;
+    background-image: radial-gradient(red,green,blue,maroon,lime,lightgreen,black,white);
+    height: 200px;
+    width: 200px; }
+
+.d{ border: 1px solid black;
+    background-image: conic-gradient(red,green,blue,maroon,lime,lightgreen,black,white);
+    height: 200px;
+    width: 200px; }
+
+.e{ border: 1px solid black;
+    background: rgb(64,109,78);
+    height: 200px;
+    width: 200px; }
+
+ .f{ border: 1px solid black;
+     background-image: url(teddy.png);
+     border-radius: 30%;
+    height: 200px;
+    width: 200px; }
+
+ .g{ border: 1px solid black;
+     background-image: conic-gradient(red 0deg,red 45deg,blue 45deg, blue
+				90deg,black 90deg, black 135deg,green 135deg,green 180deg,yellow 180deg, yellow 225deg, coral 225deg, coral 270deg, lime 270deg, lime 315deg,skyblue 315deg,skyblue 360deg );
+    height: 200px;
+    width: 200px; }

@@ -1,0 +1,30 @@
+*{ margin: 0px;
+   padding: 0px; }
+div{
+    height: 200px;
+    flex-basis: 20%;
+    float: left;
+    transition: 2s;
+}
+div img{
+    height: 200px;
+    width: 100%;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+}
+div:hover{
+    height: 300px;
+    width: 30%;
+    box-shadow: 8px 8px 8px 8px gray;   
+}
+
+P{ padding-top: 200px;
+   text-align: center;
+   overflow: hidden;
+   height: 200px;
+   width: 200px;
+   resize: both; }
+

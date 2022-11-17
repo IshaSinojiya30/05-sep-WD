@@ -1,0 +1,142 @@
+.one{text-align: center;
+    display: flex;
+}
+.one .col1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.one .col2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:gold;
+}
+.one .col3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:crimson;
+}
+.one .col4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:chocolate;
+}
+.one .col5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:bisque
+}
+
+.two{margin-top: 30px;
+     display: flex;
+     justify-content: space-around;
+}
+.two .col1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.two .col2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:gold;
+}
+.two .col3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:crimson;
+}
+.two .col4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:chocolate;
+}
+.two .col5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:bisque
+
+}
+
+.three{margin-top: 30px;
+     display: flex;
+     justify-content: space-between;
+}
+.three .col1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.three .col2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:gold;
+}
+.three .col3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:crimson;
+}
+.three .col4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:chocolate;
+}
+.three .col5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:bisque
+
+}
+
+.four{margin-top: 30px;
+     display: flex;
+     justify-content: space-evenly;
+}
+.four .col1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: aqua;
+}
+.four .col2{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:gold;
+}
+.four .col3{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:crimson;
+}
+.four .col4{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:chocolate;
+}
+.four .col5{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color:bisque
+
+}
+
