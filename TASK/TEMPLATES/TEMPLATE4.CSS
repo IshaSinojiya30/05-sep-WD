@@ -1,0 +1,244 @@
+*{ margin: 0px;
+   padding: 0px; }
+
+header{ width: 100%;
+        height: 120px;
+        border: 1px solid black;
+        background: #AAB2BD; }
+
+.name{ width: 10%;
+       height: 120px;
+       float: left;}
+
+.name h1{ padding: 35px;
+          color: #434A54; }
+
+nav{ height: 120px;
+     width: 90%;
+     float: right; }
+
+ul{ margin-top: 45px;
+    margin-left: 700px; }
+
+ul li{ display: inline;
+       list-style: none;
+       padding: 10px; }
+
+ul li a{ text-decoration: none;
+         font-size: 25px;
+         color: #434A54; }
+
+ul li a:hover{ border: 1px solid #434A54;
+               text-decoration: underline; }
+
+.one{ height: 700px;
+      width: 100%;
+      background-image: url(waterfall.jpg);
+      background-repeat: no-repeat;
+      background-size: cover; }
+
+ .slider{ display: flex;
+          justify-content: space-evenly; }
+
+    .img1{ width: 300px;
+           height: 300px;
+           background-image: url(alps.jpg);
+           margin-top: 30px; }
+
+    .img2{ width: 300px;
+           height: 300px;
+           background-image: url(austrelia.jpg);
+           margin-top: 30px; }
+
+    .img3{ width: 300px;
+           height: 300px;
+           background-image: url(bridge.jpg);
+           margin-top: 30px; }
+
+  .last{ display: flex;
+         justify-content: space-evenly; }
+
+    .img4{ width: 300px;
+           height: 300px;
+           background-image: url(rainbow.jpg);
+           margin-top: 40px; }
+
+    .img5{ width: 300px;
+           height: 300px;
+           background-image: url(road.jpg);
+           margin-top: 40px; }
+
+    .img6{ width: 300px;
+           height: 300px;
+           background-image: url(sunset.jpg);
+           margin-top: 40px; }
+
+.two{ width: 100%;
+      height: 120px;
+      border: 1px solid black;
+      background: #AAB2BD; }
+
+.twomain{ display: flex;
+          justify-content: space-evenly; }
+
+.ask{ font-weight: bold;
+      text-transform: capitalize;
+      margin-top: 20px;
+      flex-basis: 15%;
+      margin-left: 50px; }
+
+.ans1 input{ height: 40px;
+             width: 200px;
+             border: 1px solid black;
+             margin-top: 20px;
+             flex-basis: 15%;
+             margin-left: 10px;
+             padding-left: 10px; }
+
+.ans2 input{ height: 40px;
+             width: 200px;
+             border: 1px solid black;
+             margin-top: 20px;
+             flex-basis: 15%;
+             margin-left: 10px;
+             padding-left: 15px; }
+
+.three{ width: 100%;
+        height: 1050px; }
+
+.three h1{ text-align: center;
+            font-weight: bold;
+            text-transform: capitalize;
+            font-size: 50px;
+            margin-top: 20px; }
+
+.three h3{ text-align: center;
+           text-transform: capitalize;
+           font-size: 25px;
+           margin-top: 20px; }
+
+.mainphoto{ display: flex;
+            justify-content: space-evenly;
+            margin-top: 30px; }
+
+.photo1{ border: 1px solid black;
+         height: 300px;
+         width: 300px;
+         padding: 20px;
+         background-color: black; }
+
+.photo1:hover{ border-radius: 20%; }
+
+.photo2{ border: 1px solid black;
+         height: 300px;
+         width: 300px;
+         padding: 20px;
+         background-color: black; }
+
+.photo2:hover{ border-radius: 20%; }
+
+.photo3{ border: 1px solid black;
+         height: 300px;
+         width: 300px;
+         padding: 20px;
+         background-color: black; }
+
+.photo3:hover{ border-radius: 20%; }
+
+.lastphoto{ display: flex;
+            justify-content: space-evenly;
+            margin-top: 70px; }
+
+.photo4{ border: 1px solid black;
+         height: 300px;
+         width: 300px;
+         padding: 20px;
+         background-color: black; }
+
+.photo4:hover{ border-radius: 20%; }
+
+.photo5{ border: 1px solid black;
+         height: 300px;
+         width: 300px;
+         padding: 20px;
+         background-color: black; }
+
+.photo5:hover{ border-radius: 20%; }
+
+.photo6{ border: 1px solid black;
+         height: 300px;
+         width: 300px;
+         padding: 20px;
+         background-color: black; }
+
+.photo6:hover{ border-radius: 20%; }
+
+.four{ width: 100%;
+       height: 300px; }
+
+.title{ display: flex;
+        justify-content: space-evenly;
+        margin-top: 50px; }
+
+.title1{ text-align: center;
+         text-transform: capitalize;
+         border: 6px double black;
+         color: #FF7582;
+         height: 300px;
+         width: 400px; }
+
+.title1 h1{ margin-top: 70px;
+            font-size: 35px; }
+
+.title1 h2{ margin-top: 30px;
+            font-size: 25px; }
+
+.title1:hover{ background-color: #355C7D; }
+
+.title2{ text-align: center;
+         text-transform: capitalize;
+         border: 6px double black;
+         color: #FF7582;
+         height: 300px;
+         width: 400px; }
+
+.title2 h1{ margin-top: 70px;
+            font-size: 35px; }
+
+.title2 h2{ margin-top: 30px;
+            font-size: 25px; }
+
+.title2:hover{ background-color: #355C7D; }
+
+.title3{ text-align: center;
+         text-transform: capitalize;
+         border: 6px double black;
+         color: #FF7582;
+         height: 300px;
+         width: 400px; }
+
+.title3 h1{ margin-top: 70px;
+            font-size: 35px; }
+
+.title3 h2{ margin-top: 30px;
+            font-size: 25px; }
+
+.title3:hover{ background-color: #355C7D; }
+
+footer{ height: 160px;
+        width: 100%;
+        background-color: #2A445E }
+
+.Travelo{ margin-top: 100px;
+          margin-left: 100px; }
+
+.Travelo h1{ color: #F3AA20;
+             padding: 15px;
+             margin-left: 100px; }
+
+.Travelo h3{ color: #F3AA20;
+             margin-left: 100px; }
+
+
+       
+        
