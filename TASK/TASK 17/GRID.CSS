@@ -1,0 +1,66 @@
+*{ margin: 0px;
+   padding: 0px; }
+
+   body{ background-color: lightcoral;  }
+
+ .main{ 
+
+      display: grid;
+      grid-template-columns:repeat(3, 1fr);
+      grid-column-gap: 15px;
+      padding: 20px;
+      grid-row-gap: 100px;
+  }
+
+  .col1{ height: 250px;
+         width: 100%;
+         text-align: center; }
+
+  .col1 p{ padding-top: 10px; }
+
+  .col1 button{ margin-top: 10px; }
+
+  .col2{ height: 250px;
+         width: 100%;
+         text-align: center; }
+
+  .col2 p{ padding-top: 10px; }
+
+  .col2 button{ margin-top: 10px; }
+
+  .col3{ height: 250px;
+         width: 100%;
+         text-align: center; }
+
+  .col3 p{ padding-top: 10px; }
+
+  .col3 button{ margin-top: 10px; }
+
+  .col4{ height: 250px;
+         width: 100%;
+         text-align: center; }
+
+  .col4 p{ padding-top: 10px; }
+
+  .col4 button{ margin-top: 10px; }
+
+  .col5{ height: 250px;
+         width: 100%;
+         text-align: center; }
+
+  .col5 p{ padding-top: 10px; }
+
+  .col5 button{ margin-top: 10px; }
+
+  .col6{ height: 250px;
+         width: 100%;
+         text-align: center; }
+
+  .col6 p{ padding-top: 10px; }
+
+  .col6 button{ margin-top: 10px; }
+
+
+  
+
+
