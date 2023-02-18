@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>document</title>
+
+	<style type="text/css">
+		
+		#btn1,
+		#btn2,
+		#btn3,
+		#btn4,
+		#btn5 { width: 200px;
+		        height: 50px;
+		        background-color: skyblue;
+		        color: black;
+		        font-size: 20px; }
+
+	</style>
+</head>
+<body>
+
+	<button id="btn1" onclick="ad()">addition</button>
+	<button id="btn2" onclick="sb()">sub</button>
+	<button id="btn3" onclick="ml()">mul</button>
+	<button id="btn4" onclick="dv()">div</button>
+	<button id="btn5" onclick="pr()">print</button>
+
+
+</body>
+
+  <script type="text/javascript">
+  	
+  	function ad() {
+
+  		var a=parseInt(prompt("enter value of a"));
+  		var b=parseInt(prompt("enter value of b"));
+  		var c=a+b;
+  		alert("adition of two number :- "+c);
+  	}
+
+  	function sb() {
+
+  		var a=parseInt(prompt("enter value of a"));
+  		var b=parseInt(prompt("enter value of b"));
+  		var c=a-b;
+  		alert("substraction of two number :- "+c);
+  	}
+
+  	function ml() {
+
+  		var a=parseInt(prompt("enter value of a"));
+  		var b=parseInt(prompt("enter value of b"));
+  		var c=a*b;
+  		alert("multiplication of two number :- "+c);
+  	}
+
+  	function dv() {
+
+  		var a=parseInt(prompt("enter value of a"));
+  		var b=parseInt(prompt("enter value of b"));
+  		var c=a/b;
+  		alert("divition of two number :- "+c);
+  	}
+
+  	function pr() {
+
+      document.getElementById("btn5").style="display:none";
+  		window.print();
+
+  	}
+
+  </script>
+</html>
