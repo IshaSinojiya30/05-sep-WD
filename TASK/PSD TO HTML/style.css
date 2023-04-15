@@ -1,0 +1,449 @@
+@import url(media-query.css);
+
+body {
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(IMAGES/Background.png);
+    background-size: cover;
+    overflow-x: hidden !important;
+    /* overflow-y: hidden !important; */
+
+}
+
+.head {
+    height: 100vh;
+    width: 100%;
+
+}
+
+.pht-3 {
+
+    width: 100% !important;
+    height: 100vh !important;
+    position: sticky;
+    top: 0px;
+    z-index: -10;
+
+}
+
+
+.navbar-logo {
+
+    margin-left: 3%;
+}
+
+.head #navbarSupportedContent {
+
+    margin-left: 45%;
+}
+
+.head a {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.pht .pht-1 {
+
+    height: 100vh !important;
+    width: 70% !important;
+    margin-left: 43%;
+    margin-top: 5%;
+    z-index: -20;
+
+}
+
+.pht .pht-2 {
+    height: 100vh !important;
+    width: 65%;
+    margin-top: 4%;
+    margin-left: 35%;
+    margin-bottom: 4%;
+    overflow-x: hidden !important;
+    z-index: -15;
+    overflow-y: hidden !important;
+
+}
+
+.title-1 {
+
+    margin-top: 10%;
+}
+
+.title-1 h1 {
+
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.title-1 p {
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+.dote-one {
+    margin-left: 90%;
+    margin-top: -14%;
+}
+
+.dote-two {
+
+    margin-top: 9%;
+    margin-left: 7%;
+}
+
+.title-2 h1 {
+
+    font-family: 'Ubuntu', sans-serif;
+    color: #7287ae;
+    margin-top: 5%;
+}
+
+.title-body {
+
+    margin-left: 10% !important;
+    color: #504f4f;
+
+
+}
+
+.title-body h4 {
+
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+
+.title-body p {
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+.title-body h5 {
+
+    letter-spacing: 5px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#btn-1 {
+
+    background-color: #7287ae;
+    color: white;
+    margin-left: 37%;
+    width: 15% !important;
+}
+
+.dote-3 {
+
+    margin-left: 90%;
+    width: 7%;
+    margin-top: -8%;
+}
+
+
+#grp-img-3 {
+
+
+    width: 100% !important;
+    height: 550px;
+    margin-left: 2% !important;
+}
+
+#body-title {
+
+    background-color: white;
+    text-align: center;
+}
+
+#body-title h1 {
+
+    font-family: 'Ubuntu', sans-serif;
+    /* font-size: 75px */
+}
+
+#btn-2 {
+
+    background-color: #7287ae;
+    color: white;
+    /* margin-left: 10%; */
+    width: 30% !important;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+.dote-4 {
+
+    margin-top: -4%;
+    margin-left: 19%;
+    width: 15%;
+    margin-top: -90%;
+}
+
+#body-title-1 {
+
+    background-color: white;
+    width: 50% !important;
+    text-align: center;
+}
+
+#body-title-1 h1 {
+
+    font-family: 'Ubuntu', sans-serif;
+    /* font-size: 65px; */
+}
+
+#body-title-1 p {
+
+    font-family: 'Lato', sans-serif;
+
+}
+
+#img-2 {
+
+    background-image: url(IMAGES/promo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 550px;
+    background-color: #f3dbb9;
+
+}
+
+#btn-3 {
+
+    background-color: #7287ae;
+    color: white;
+    /* margin-left: 10%; */
+    width: 30% !important;
+    text-align: center;
+    letter-spacing: 3px;
+
+}
+
+
+
+.grp-5 {
+
+    background-color: #7287ae;
+    width: 100%;
+    height: 550px;
+    margin-top: -5.5%;
+}
+
+.grp-5 h1 {
+
+    /* margin-top: 5% !important; */
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 47px;
+}
+
+.num {
+    background-color: #7287ae;
+}
+
+.elip {
+
+    margin-left: 33%;
+    margin-top: 5%;
+}
+
+.num h3 {
+
+    color: #7287ae;
+    letter-spacing: 3px;
+    margin-top: -22%;
+    margin-left: 3%;
+}
+
+.num h4 {
+
+    margin-top: 16%;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    ;
+}
+
+.num p {
+
+    margin-top: 10%;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.dote-5 {
+
+
+    margin-left: 75% !important;
+    width: 13%;
+    height: 80px;
+    margin-top: -90%;
+}
+
+.grp-7 {
+
+    margin-top: -3%;
+    background-image: url(IMAGES/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100% !important;
+    width: 100%;
+    height: 450px !important;
+}
+
+.grp-7 h1 {
+
+    padding-top: 7%;
+    color: #7287ae;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.grp-7 p {
+
+    padding-top: 2%;
+    color: #7287ae;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-left: 23%;
+}
+
+#btn-4 {
+
+    background-color: #7287ae;
+    color: white;
+    margin-left: 35%;
+    width: 25% !important;
+    text-align: center;
+    letter-spacing: 5px;
+
+}
+
+.dote-6 {
+
+
+    margin-left: 8% !important;
+    width: 7%;
+    height: 60px;
+    margin-top: -73%;
+}
+
+.grp-8 {
+
+    width: 100%;
+    height: 350px;
+
+}
+
+.grp-8 p {
+
+    font-size: 28px;
+    padding: 2%;
+    color: #7287ae;
+    font-family: 'Lato', sans-serif;
+}
+
+.grp-8 h1 {
+
+
+    font-size: 100px;
+    color: #7287ae;
+}
+
+.grp-8 h2 {
+
+    color: #7287ae;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+span {
+
+    margin-left: 36%;
+    padding: 2%;
+}
+
+.dote-7 {
+
+    margin-left: 85% !important;
+    width: 10%;
+    height: 65px;
+    margin-top: -77%;
+}
+
+#foot-1 {
+
+    width: 55%;
+    height: 400px;
+    overflow-x: hidden;
+    overflow-y: hidden !important;
+    left: -20%;
+    margin-top: -14% !important;
+    position: absolute;
+
+}
+
+#foot-2 {
+
+    width: 50%;
+    height: 250px;
+    overflow-x: hidden;
+    position: absolute;
+    overflow-y: hidden !important;
+    /* padding-right: 40%!important; */
+    margin-left: -6% !important;
+    margin-top: -10%;
+}
+
+#foot-3 {
+
+    position: absolute;
+    height: 310px;
+    width: 100% !important;
+    margin-top: -3%;
+
+}
+
+#foot-text {
+
+    position: absolute;
+}
+
+#foot-text h3 {
+
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#foot-text p {
+
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+#foot-text li {
+
+    list-style: none;
+
+}
+
+
+#foot-text li a {
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+
+}
+
+.dote-8 {
+
+    margin-left: 10% !important;
+    width: 7%;
+    height: 65px;
+    margin-top: -10%;
+    position: absolute;
+}
